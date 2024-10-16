@@ -1,0 +1,8 @@
+[Ubuntu]
+192.168.56.108
+192.168.56.109
+192.168.56.112
+
+[CentOS]
+192.168.56.110 ansible_user=azamora_admin
+192.168.56.111 ansible_user=azamora_admin
