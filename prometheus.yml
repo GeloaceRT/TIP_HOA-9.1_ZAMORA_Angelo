@@ -1,0 +1,11 @@
+---
+
+  - hosts: all
+    become: true
+    roles:
+      -  base
+
+  - hosts: Ubuntu, CentOS
+    become: true
+    roles:
+      - workstations
