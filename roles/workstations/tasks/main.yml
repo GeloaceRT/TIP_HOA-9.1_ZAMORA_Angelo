@@ -1,15 +1,4 @@
- - name: Open port 9090
-   ufw:
-     rule: allow
-     port: 9090
-     proto: tcp
-     state: enabled
-
- - name: Allow Prometheus for Firewall
-   firewalld:
-     port: 9090/tcp
-     permanent: yes
-     state: enabled
+---
 
  - name: Install Prometheus (Ubuntu)
    apt:
